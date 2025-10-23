@@ -1,0 +1,60 @@
+@font-face {
+    font-family: norse-bold;
+    src: url("./fonts/Norse-Bold.otf");
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.logo-section {
+    position: relative;
+    width: 400px;
+}
+
+.logo-section img {
+    height: max(100vh, 700px);
+    width: 400px;
+}
+
+.logo-section div {
+    position: absolute;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0 0 0 / 60%);
+    color: white;
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.logo img {
+    height: 100px;
+    width: auto
+}
+
+.logo span {
+    font-family: norse-bold, sans-serif;
+    margin-left: 20px;
+    font-size: 80px;
+}
+
+.credit {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 16px;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+}
+
+.credit a {
+    color: white;
+}
